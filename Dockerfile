@@ -9,6 +9,6 @@ RUN pip3 install PyYAML
 
 COPY feed.py /usr/bin/feed/py
 
-COPY enrtypoint.sh /enrtypoint.sh
+COPY enrtypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
